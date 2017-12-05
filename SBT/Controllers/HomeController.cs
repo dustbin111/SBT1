@@ -15,16 +15,22 @@ namespace SBT.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Automated creation of a security basline.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "The Contact Page.";
 
             return View();
+        }
+
+        //GET: SecBase/WarningBanner
+        public ActionResult WarningBanner()
+        {
+              return View();
         }
     }
 }

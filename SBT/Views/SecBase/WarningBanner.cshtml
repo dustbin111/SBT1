@@ -1,0 +1,83 @@
+﻿@model SBT.Models.SBTWarningBanner
+
+@{
+    ViewBag.Title = "Warning Banner";
+    Layout = "~/Views/Shared/_SBTLayout.cshtml";
+}
+
+<h2>Warning Banner</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Use of this system means you understand and consent to the following:</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.WarningGovt, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.WarningGovt)
+                    @Html.ValidationMessageFor(model => model.WarningGovt, "", new { @class = "text-danger" })
+                    <label for="WarningGovt">This is NOT a government system.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.WarningAccreditted, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.WarningAccreditted)
+                    @Html.ValidationMessageFor(model => model.WarningAccreditted, "", new { @class = "text-danger" })
+                    <label for="WarningAccreditted">This system is NOT accredited by anyone.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.WarningClassified, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.WarningClassified)
+                    @Html.ValidationMessageFor(model => model.WarningClassified, "", new { @class = "text-danger" })
+                    <label for="WarningClassified">UNDER NO CIRCUMSTANCES SHOULD CLASSIFIED INFORMATION BE PROCESSED THROUGH THIS SYSTEM.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.WarningStored, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.WarningStored)
+                    @Html.ValidationMessageFor(model => model.WarningStored, "", new { @class = "text-danger" })
+                    <label for="WarningStored">Information input into this system is NOT stored on this system; any information you want to save must be saved locally to your computer.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.WarningUse, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <div class="col-md-10">
+                <div class="checkbox">
+                    @Html.EditorFor(model => model.WarningUse)
+                    @Html.ValidationMessageFor(model => model.WarningUse, "", new { @class = "text-danger" })
+                    <label for="WarningUse">Use of this Security Baseline Generator and downloading from this system is entireley AT YOUR OWN RISK.</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="I Agree" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

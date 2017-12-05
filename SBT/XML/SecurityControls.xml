@@ -1,0 +1,116 @@
+<control name='Physical Security' id='0' >
+	<control name='Perimeter Controls' id='1' parentid='0' >
+		<control name='Bag Checks' id='2' parentid='1' >
+		<control name='ID Checks' id='3' parentid='1' >
+<		control name='Other' id='4' parentid='1' >
+	<control name='Secure Area(s)' id='5' parentid='0' >
+		<control name='Closed Area' id='6' parentid='5' >
+			<control name='Approved' id='7' parentid='6' >
+			<control name='Non-Approved' id='8' parentid='6' >
+		<control name='Restricted Area' id='9' parentid='5' >
+		<control name='SCIF' id='10' parentid='5' >
+			<control name='Approved' id='11' parentid='10' >
+			<control name='Non-Approved' id='12' parentid='10' >
+	<control name='Storage Equipment' id='13' parentid='0' >
+		<control name='GSA Approved Container(s)' id='14' parentid='13' >
+		<control name='Combination Control Procedures' id='15' parentid='13' >
+	<control name='Access Control System' id='16' parentid='0' >
+	<control name='Supplemental Protection' id='17' parentid='0' >
+	<control name='Intrusion Detection System / Alarms' id='18' parentid='0' >
+	<control name='End of Day Checks' id='19' parentid='0' >
+	<control name='Emergency Procedures' id='20' parentid='0' >
+	<control name='Incoming Visit Procedures' id='21' parentid='0' >
+	<control name='Video Monitoring / Closed Circuit Television' id='22' parentid='0' >
+	<control name='Fences' id='23' parentid='0' >
+	<control name='Other' id='24' parentid='0' >
+<control name='Information Security' id='25' >
+	<control name='Information Management System / Accountability' id='26' parentid='25' >
+	<control name='Receipting' id='27' parentid='25' >
+	<control name='Transmission Procedures' id='28' parentid='25' >
+		<control name='Transportation Plan' id='29' parentid='28' >
+	<control name='Reproduction Procedures' id='30' parentid='25' >
+	<control name='Classification Procedures' id='31' parentid='25' >
+	<control name='Destruction Procedures / Methods' id='32' parentid='25' >
+	<control name='Marking(s)' id='33' parentid='25' >
+	<control name='Other' id='34' parentid='25' >
+<control name='Personnel Security' id='35' >
+	<control name='Outgoing Visit Procedures ' id='36' parentid='35' >
+	<control name='Citizenship Verification Procedures' id='37' parentid='35' >
+	<control name='Consultant Procedures' id='38' parentid='35' >
+	<control name='Personnel Clearance Maintenance' id='39' parentid='35' >
+	<control name='Graduated Scale of Disciplinary Action' id='40' parentid='35' >
+	<control name='Limited Access Authorization (LAA)' id='41' parentid='35' >
+	<control name='Maintenance of Personnel Clearances' id='42' parentid='35' >
+	<control name='Consultant Procedures' id='43' parentid='35' >
+		<control name='Consultant Agreements' id='44' parentid='43' >
+		<control name='Other' id='45' parentid='43' >
+	<control name='Other' id='46' parentid='35' >
+<control name='General Security' id='47' >
+	<control name='Standard Practice and Procedures / Standard Operating Procedures' id='48' parentid='47' >
+	<control name='Self-Inspection' id='49' parentid='47' >
+	<control name='Subcontracting Procedures' id='50' parentid='47' >
+		<control name='Clearance Level Validation' id='51' parentid='50' >
+		<control name='Classification Guidance' id='52' parentid='50' >
+	<control name='Security Education' id='53' parentid='47' >
+		<control name='FSO Training' id='54' parentid='53' >
+			<control name='CDSE FSO Curriculum for Possessing Facilities  Explain' id='55' parentid='54' >
+			<control name='CDSE FSO Curriculum for Non-Possessing Facilities  Explain' id='56' parentid='54' >
+			<control name='Other  Explain' id='57' parentid='54' >
+		<control name='ISSM Training' id='58' parentid='53' >
+		<control name='ITPSO Training' id='59' parentid='53' >
+		<control name='Initial Security Training' id='60' parentid='53' >
+		<control name='Annual Security Training' id='61' parentid='53' >
+			<control name='Cleared Employee Training' id='62' parentid='61' >
+			<control name='Uncleared Employee Training' id='63' parentid='61' >
+		<control name='Insider Threat Training' id='64' parentid='53' >
+		<control name='OPSEC Training' id='65' parentid='53' >
+		<control name='Special Briefings' id='66' parentid='53' >
+			<control name='COMSEC' id='67' parentid='66' >
+			<control name='NATO' id='68' parentid='66' >
+			<control name='CNWDI' id='69' parentid='66' >
+			<control name='Other' id='70' parentid='66' >
+		<control name='Foreign Travel' id='71' parentid='53' >
+			<control name='Pre-briefings and Debriefings' id='72' parentid='71' >
+			<control name='Pre-briefings only' id='73' parentid='71' >
+			<control name='Debriefings only' id='74' parentid='71' >
+		<control name='SF 312 Execution and Processing' id='75' parentid='53' >
+		<control name='Debriefing Procedures' id='76' parentid='53' >
+		<control name='Derivative Classification Training' id='77' parentid='53' >
+			<control name='Initial  Explain' id='78' parentid='77' >
+			<control name='Refresher  Explain' id='79' parentid='77' >
+		<control name='Defense Hotline Procedures' id='80' parentid='53' >
+		<control name='Counterintelligence / Cybersecurity Awareness' id='81' parentid='53' >
+		<control name='Company Sponsored Event' id='82' parentid='53' >
+			<control name='Guest briefers' id='83' parentid='82' >
+			<control name='Lunch ‘n’ Learn' id='84' parentid='82' >
+		<control name='Off-Site Training Event' id='85' parentid='53' >
+		<control name='Security Staff Professionalization' id='86' parentid='53' >
+			<control name='Professional Certification  List certifications, date achieved, who achieved them' id='87' parentid='86' >
+			<control name='Other  Explain' id='88' parentid='86' >
+	<control name='Security Community Participation' id='89' parentid='47' >
+		<control name='NCMS' id='90' parentid='89' >
+	<control name='Other' id='91' parentid='47' >
+<control name='Information System (IS) Security / Cybersecurity' id='92' >
+	<control name='NEED HELP ADDING SECURITY CONTROLS FOR THIS SECTION' id='93' parentid='92' >
+	<control name='NISPOM Requirements?' id='94' parentid='92' >
+	<control name='NIST Security Controls?' id='95' parentid='92' >
+	<control name='Other' id='96' parentid='92' >
+<control name='Foreign Ownership, Control, or Influence (FOCI) / International' id='97' >
+	<control name='Mitigation Instrument' id='98' parentid='97' >
+		<control name='Proxy Agreement' id='99' parentid='98' >
+		<control name='Special Security Agreement (SSA)' id='100' parentid='98' >
+		<control name='Security Control Agreement (SCA)' id='101' parentid='98' >
+		<control name='Voting Trust Agreement (VTA)' id='102' parentid='98' >
+		<control name='Board Resolution' id='103' parentid='98' >
+	<control name='Technology Control Plan (TCP)' id='104' parentid='97' >
+	<control name='Electronic Communication Plan (ECP)' id='105' parentid='97' >
+	<control name='Affiliated Operations Plan (AOP)' id='106' parentid='97' >
+	<control name='Facilities Location Plan (FLP)' id='107' parentid='97' >
+	<control name='Visitation Policy' id='108' parentid='97' >
+	<control name='National Interest Determination (NID)' id='109' parentid='97' >
+	<control name='Government Security Committee (GSC)' id='110' parentid='97' >
+		<control name='GSC Subcommittees  List and explain' id='111' parentid='110' >
+	<control name='Export Control Procedures' id='112' parentid='97' >
+<control name='Other' id='113' parentid='97' >
+<control name='Other (add as many as necessary)' id='114' parentid='97' >
+<control name='Add control  Freeform field' id='115' parentid='97' >

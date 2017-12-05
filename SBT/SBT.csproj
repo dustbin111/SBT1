@@ -147,7 +147,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\SBTAsset.cs" />
+    <Compile Include="Models\SBTFacility.cs" />
+    <Compile Include="Models\SBTFCL.cs" />
+    <Compile Include="Models\SBTFOCI.cs" />
+    <Compile Include="Models\SBTWarningBanner.cs" />
+    <Compile Include="Models\SessionViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\WordDocumentAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -161,6 +168,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="XML\Classification.xml" />
+    <Content Include="XML\IBTL.xml" />
+    <Content Include="XML\PIEFAOS.xml" />
+    <Content Include="XML\SecurityBaseline.xml" />
+    <Content Include="XML\SecurityControls.xml" />
+    <Content Include="XML\StateLookup.xml" />
+    <Content Include="Downloads\SecurityBaselineTemplate.pdf" />
+    <Content Include="Downloads\SecurityBaselineUserGuide.pdf" />
     <None Include="Properties\PublishProfiles\SBT20170917095558 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -187,11 +202,18 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_SBTLayout.cshtml" />
+    <Content Include="Views\Shared\_WordLayout.cshtml" />
+    <Content Include="Views\SecBase\Asset.cshtml" />
+    <Content Include="Views\SecBase\Facility.cshtml" />
+    <Content Include="Views\SecBase\WarningBanner.cshtml" />
+    <Content Include="Views\SecBase\Import.cshtml" />
+    <Content Include="Views\SecBase\Export.cshtml" />
+    <Content Include="Views\SecBase\SecurityBaselineTemplate.cshtml" />
+    <Content Include="Views\SecBase\FOCI.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="Views\SecBase\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

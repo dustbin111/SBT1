@@ -1,0 +1,263 @@
+﻿@model SBT.Models.SBTAsset
+
+@{
+    ViewBag.Title = "Asset";
+    Layout = "~/Views/Shared/_SBTLayout.cshtml";
+}
+
+<h2>Asset</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4><b>Identify & Describe</b> your asset below.</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetID, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Asset Identifier
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetID, "", new { @class = "text-danger" })
+
+                <p>The company-assigned unique identifier used in databases, inventory management systems, etc.</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetName, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Asset Name
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetName, "", new { @class = "text-danger" })
+
+                <p>The common name of the asset.</p>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetDescription, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Asset Description
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetDescription, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetDescription, "", new { @class = "text-danger" })
+
+                <p>
+                    The description may include relevant location, size, part numbers, special precautions and considerations, 
+                    and characteristics thereof. <i>What makes this asset special?</i>
+                </p>
+            </div>
+        </div>
+        <h4><b>Categorize</b> your asset below.</h4>
+        <hr />
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCatIBTL, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                IBTL Categorization
+            </label>
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.assetCatIBTL, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCatIBTL, "", new { @class = "text-danger" })*@
+
+                @Html.DropDownListFor(model => model.assetCatIBTL, (IEnumerable<SelectListItem>)ViewBag.catIBTL, "-- IBTL Category --", new { @class = "form-control" })
+
+
+                <p>Categorize the asset in the context of the <a href="http://www.cdse.edu/documents/cdse/CI-JobAidSeries-IBTL.pdf" target="_blank">IBTL</a>.</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCatIBTLSub, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                IBTL Sub-Categorization
+            </label>
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.assetCatIBTLSub, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCatIBTLSub, "", new { @class = "text-danger" })*@
+                
+                @Html.DropDownListFor(model => model.assetCatIBTLSub, (IEnumerable<SelectListItem>)ViewBag.catIBTLSub, "-- IBTL Sub-Category --", new { @class = "form-control" })
+                
+                <p>Categorize the asset in the context of the <a href="http://www.cdse.edu/documents/cdse/CI-JobAidSeries-IBTL.pdf" target="_blank">IBTL</a>.</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCatPIEFAOS, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                PIEFOAS Categorization
+            </label>
+            <div class="col-md-10">
+                @*@Html.EditorFor(model => model.assetCatPIEFAOS, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCatPIEFAOS, "", new { @class = "text-danger" })*@
+
+                @Html.DropDownListFor(model => model.assetCatPIEFAOS, (IEnumerable<SelectListItem>)ViewBag.catPiefaos, "-- PIEFAOS Category --", new { @class = "form-control" })
+
+                <p>Categorize the asset in the context of <a href="http://www.cdse.edu/documents/cdse/Security-in-Depth-Webinar.pdf" target="_blank">PIEFAO-S</a>.</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetUSG, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Asset Use
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetUSG, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetUSG, "", new { @class = "text-danger" })
+
+                <p>Is this asset for commercial or government use?</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetITAR, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                ITAR/EAR
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetITAR, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetITAR, "", new { @class = "text-danger" })
+
+                <p>Is this asset export controlled?</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCatForeign, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Foreign Involvement
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetCatForeign, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCatForeign, "", new { @class = "text-danger" })
+
+                <p>Is this asset associated with any foreign sales, service, relationships or use?</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCPI, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Critical Program Information
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetCPI, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCPI, "", new { @class = "text-danger" })
+
+                <p>Has the government identified this asset as <a href="http://www.cdse.edu/shorts/counterintelligence.html#" target="_blank">CPI</a>?</p>
+            </div>
+        </div>
+        <h4>Identify your asset's <b>customer and program data</b> below.</h4>
+        <hr />
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetProgramName, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Program Name
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetProgramName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetProgramName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetProgramClass, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Program Classification
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetProgramClass, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetProgramClass, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetContractNumber, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Contract Number
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetContractNumber, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetContractNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCustomerPOCName, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Customer POC Name
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetCustomerPOCName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCustomerPOCName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCustomerPOCTitle, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Customer POC Title
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetCustomerPOCTitle, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCustomerPOCTitle, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCustomerPOCPhone, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Customer POC Phone
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetCustomerPOCPhone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCustomerPOCPhone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCustomerPOCEmail, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Customer POC Email
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetCustomerPOCEmail, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetCustomerPOCEmail, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <h4><b>Other</b> Asset Information</h4>
+        <hr />
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.assetCustomerPOCEmail, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                Other Asset Data
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.assetOther, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.assetOther, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @*<input type="submit" value="Create" class="btn btn-default" />*@
+
+                <input type="submit" value="<< Back" formaction="@Url.Action("Asset", "SecBase", new { direction="FOCI"})" class="btn btn-default" />
+                <input type="submit" value="Submit" formaction="@Url.Action("Asset", "SecBase", new { direction=""})" class="btn btn-default" />
+                <input type="submit" value="Next >>" formaction="@Url.Action("Asset", "SecBase", new { direction="Export"})" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

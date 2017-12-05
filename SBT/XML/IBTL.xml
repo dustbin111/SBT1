@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ibtlItemTable>
+	<ibtlItemRow>
+		<ibtlCategory>A: Raw Materials </ibtlCategory>
+		<ibtlCategoryCode>A</ibtlCategoryCode>
+		<ibtlArea>A1 - Ores</ibtlArea>
+		<ibtlAreaCode>A1</ibtlAreaCode>
+		<ibtlDescription>Ores</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>A: Raw Materials </ibtlCategory>
+		<ibtlCategoryCode>A</ibtlCategoryCode>
+		<ibtlArea>A2 - Rare earth minerals</ibtlArea>
+		<ibtlAreaCode>A2</ibtlAreaCode>
+		<ibtlDescription>Rare earth minerals</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>A: Raw Materials </ibtlCategory>
+		<ibtlCategoryCode>A</ibtlCategoryCode>
+		<ibtlArea>A3 - Alloys</ibtlArea>
+		<ibtlAreaCode>A3</ibtlAreaCode>
+		<ibtlDescription>Alloys</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>A: Raw Materials </ibtlCategory>
+		<ibtlCategoryCode>A</ibtlCategoryCode>
+		<ibtlArea>A4 - Chemicals</ibtlArea>
+		<ibtlAreaCode>A4</ibtlAreaCode>
+		<ibtlDescription>Chemicals</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>A: Raw Materials </ibtlCategory>
+		<ibtlCategoryCode>A</ibtlCategoryCode>
+		<ibtlArea>A5 - Fiber-based materials</ibtlArea>
+		<ibtlAreaCode>A5</ibtlAreaCode>
+		<ibtlDescription>Fiber-based materials</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>A: Raw Materials </ibtlCategory>
+		<ibtlCategoryCode>A</ibtlCategoryCode>
+		<ibtlArea>A6 - Other raw materials</ibtlArea>
+		<ibtlAreaCode>A6</ibtlAreaCode>
+		<ibtlDescription>Other raw materials</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B1 - Integrated circuits</ibtlArea>
+		<ibtlAreaCode>B1</ibtlAreaCode>
+		<ibtlDescription>Integrated circuits</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B2 - Application specific integrated circuits (ASICs)</ibtlArea>
+		<ibtlAreaCode>B2</ibtlAreaCode>
+		<ibtlDescription>Application specific integrated circuits (ASICs)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B3 - Radiation hardened integrated circuits</ibtlArea>
+		<ibtlAreaCode>B3</ibtlAreaCode>
+		<ibtlDescription>Radiation hardened integrated circuits</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B4 - Field programmable gate arrays (FPGAs)</ibtlArea>
+		<ibtlAreaCode>B4</ibtlAreaCode>
+		<ibtlDescription>Field programmable gate arrays (FPGAs)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B5 - Programmable memory</ibtlArea>
+		<ibtlAreaCode>B5</ibtlAreaCode>
+		<ibtlDescription>Programmable memory</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B6 - Optical filters</ibtlArea>
+		<ibtlAreaCode>B6</ibtlAreaCode>
+		<ibtlDescription>Optical filters</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B7 - Micro-sensors</ibtlArea>
+		<ibtlAreaCode>B7</ibtlAreaCode>
+		<ibtlDescription>Micro-sensors</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B8 - Vacuum tubes</ibtlArea>
+		<ibtlAreaCode>B8</ibtlAreaCode>
+		<ibtlDescription>Vacuum tubes</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B9 - Capacitors</ibtlArea>
+		<ibtlAreaCode>B9</ibtlAreaCode>
+		<ibtlDescription>Capacitors</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B10 - Microprocessors</ibtlArea>
+		<ibtlAreaCode>B10</ibtlAreaCode>
+		<ibtlDescription>Microprocessors</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B11 - Microcontrollers</ibtlArea>
+		<ibtlAreaCode>B11</ibtlAreaCode>
+		<ibtlDescription>Microcontrollers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B12 - Digital signal processors</ibtlArea>
+		<ibtlAreaCode>B12</ibtlAreaCode>
+		<ibtlDescription>Digital signal processors</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B13 - Diodes</ibtlArea>
+		<ibtlAreaCode>B13</ibtlAreaCode>
+		<ibtlDescription>Diodes</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B14 - Wafers (any molecular composition)</ibtlArea>
+		<ibtlAreaCode>B14</ibtlAreaCode>
+		<ibtlDescription>Wafers (any molecular composition)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B15 - Circuit boards</ibtlArea>
+		<ibtlAreaCode>B15</ibtlAreaCode>
+		<ibtlDescription>Circuit boards</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B16 - Flexible circuit boards</ibtlArea>
+		<ibtlAreaCode>B16</ibtlAreaCode>
+		<ibtlDescription>Flexible circuit boards</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>B: Electronics </ibtlCategory>
+		<ibtlCategoryCode>B</ibtlCategoryCode>
+		<ibtlArea>B17 - Other electronic products</ibtlArea>
+		<ibtlAreaCode>B17</ibtlAreaCode>
+		<ibtlDescription>Other electronic products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C1 - Additive manufacturing (3D printing)</ibtlArea>
+		<ibtlAreaCode>C1</ibtlAreaCode>
+		<ibtlDescription>Additive manufacturing (3D printing)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C2 - Computer Numerical Control (CNC) machines</ibtlArea>
+		<ibtlAreaCode>C2</ibtlAreaCode>
+		<ibtlDescription>Computer Numerical Control (CNC) machines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C3 - Lathes, grinding machines, planers, shapers</ibtlArea>
+		<ibtlAreaCode>C3</ibtlAreaCode>
+		<ibtlDescription>Lathes, grinding machines, planers, shapers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C4 - Die press lines</ibtlArea>
+		<ibtlAreaCode>C4</ibtlAreaCode>
+		<ibtlDescription>Die press lines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C5 - Robot work cells</ibtlArea>
+		<ibtlAreaCode>C5</ibtlAreaCode>
+		<ibtlDescription>Robot work cells</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C6 - Bearings</ibtlArea>
+		<ibtlAreaCode>C6</ibtlAreaCode>
+		<ibtlDescription>Bearings</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C7 - Transmission equipment (gears, pulleys, sprockets, belts, torque converters, etc.)</ibtlArea>
+		<ibtlAreaCode>C7</ibtlAreaCode>
+		<ibtlDescription>Transmission equipment (gears, pulleys, sprockets, belts, torque converters, etc.)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C8 - Welding, soldering, and brazing equipment</ibtlArea>
+		<ibtlAreaCode>C8</ibtlAreaCode>
+		<ibtlDescription>Welding, soldering, and brazing equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>C: Manufacturing Equipment and Processes </ibtlCategory>
+		<ibtlCategoryCode>C</ibtlCategoryCode>
+		<ibtlArea>C9 - Other manufacturing equipment</ibtlArea>
+		<ibtlAreaCode>C9</ibtlAreaCode>
+		<ibtlDescription>Other manufacturing equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D1 - Gas lasers</ibtlArea>
+		<ibtlAreaCode>D1</ibtlAreaCode>
+		<ibtlDescription>Gas lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D2 - Solid state lasers</ibtlArea>
+		<ibtlAreaCode>D2</ibtlAreaCode>
+		<ibtlDescription>Solid state lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D3 - Chemical lasers</ibtlArea>
+		<ibtlAreaCode>D3</ibtlAreaCode>
+		<ibtlDescription>Chemical lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D4 - Excimer lasers</ibtlArea>
+		<ibtlAreaCode>D4</ibtlAreaCode>
+		<ibtlDescription>Excimer lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D5 - Fiber lasers</ibtlArea>
+		<ibtlAreaCode>D5</ibtlAreaCode>
+		<ibtlDescription>Fiber lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D6 - Photonic crystal lasers</ibtlArea>
+		<ibtlAreaCode>D6</ibtlAreaCode>
+		<ibtlDescription>Photonic crystal lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D7 - Semiconductor lasers</ibtlArea>
+		<ibtlAreaCode>D7</ibtlAreaCode>
+		<ibtlDescription>Semiconductor lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D8 - Dye lasers</ibtlArea>
+		<ibtlAreaCode>D8</ibtlAreaCode>
+		<ibtlDescription>Dye lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D9 - Free electron lasers</ibtlArea>
+		<ibtlAreaCode>D9</ibtlAreaCode>
+		<ibtlDescription>Free electron lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D10 - Bio lasers</ibtlArea>
+		<ibtlAreaCode>D10</ibtlAreaCode>
+		<ibtlDescription>Bio lasers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>D: Lasers</ibtlCategory>
+		<ibtlCategoryCode>D</ibtlCategoryCode>
+		<ibtlArea>D11 - Other laser products</ibtlArea>
+		<ibtlAreaCode>D11</ibtlAreaCode>
+		<ibtlDescription>Other laser products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>E: Directed Energy</ibtlCategory>
+		<ibtlCategoryCode>E</ibtlCategoryCode>
+		<ibtlArea>E1 - Directed electromagnetic radiation (not lasers)</ibtlArea>
+		<ibtlAreaCode>E1</ibtlAreaCode>
+		<ibtlDescription>Directed electromagnetic radiation (not lasers)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>E: Directed Energy</ibtlCategory>
+		<ibtlCategoryCode>E</ibtlCategoryCode>
+		<ibtlArea>E2 - Directed particles with mass</ibtlArea>
+		<ibtlAreaCode>E2</ibtlAreaCode>
+		<ibtlDescription>Directed particles with mass</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>E: Directed Energy</ibtlCategory>
+		<ibtlCategoryCode>E</ibtlCategoryCode>
+		<ibtlArea>E3 - Directed sound</ibtlArea>
+		<ibtlAreaCode>E3</ibtlAreaCode>
+		<ibtlDescription>Directed sound</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>E: Directed Energy</ibtlCategory>
+		<ibtlCategoryCode>E</ibtlCategoryCode>
+		<ibtlArea>E4 - Other directed energy products</ibtlArea>
+		<ibtlAreaCode>E4</ibtlAreaCode>
+		<ibtlDescription>Other directed energy products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>F: Optics </ibtlCategory>
+		<ibtlCategoryCode>F</ibtlCategoryCode>
+		<ibtlArea>F1 - Optics</ibtlArea>
+		<ibtlAreaCode>F1</ibtlAreaCode>
+		<ibtlDescription>Optics</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>F: Optics </ibtlCategory>
+		<ibtlCategoryCode>F</ibtlCategoryCode>
+		<ibtlArea>F2 - Fiber optics</ibtlArea>
+		<ibtlAreaCode>F2</ibtlAreaCode>
+		<ibtlDescription>Fiber optics</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>F: Optics </ibtlCategory>
+		<ibtlCategoryCode>F</ibtlCategoryCode>
+		<ibtlArea>F3 - Polarization</ibtlArea>
+		<ibtlAreaCode>F3</ibtlAreaCode>
+		<ibtlDescription>Polarization</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>F: Optics </ibtlCategory>
+		<ibtlCategoryCode>F</ibtlCategoryCode>
+		<ibtlArea>F4 - Reflective coatings</ibtlArea>
+		<ibtlAreaCode>F4</ibtlAreaCode>
+		<ibtlDescription>Reflective coatings</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>F: Optics </ibtlCategory>
+		<ibtlCategoryCode>F</ibtlCategoryCode>
+		<ibtlArea>F5 - Refractive coatings</ibtlArea>
+		<ibtlAreaCode>F5</ibtlAreaCode>
+		<ibtlDescription>Refractive coatings</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>F: Optics </ibtlCategory>
+		<ibtlCategoryCode>F</ibtlCategoryCode>
+		<ibtlArea>F6 - Lenses</ibtlArea>
+		<ibtlAreaCode>F6</ibtlAreaCode>
+		<ibtlDescription>Lenses</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>F: Optics </ibtlCategory>
+		<ibtlCategoryCode>F</ibtlCategoryCode>
+		<ibtlArea>F7 - Other optics products</ibtlArea>
+		<ibtlAreaCode>F7</ibtlAreaCode>
+		<ibtlDescription>Other optics products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>G: Acoustic Sensors </ibtlCategory>
+		<ibtlCategoryCode>G</ibtlCategoryCode>
+		<ibtlArea>G1 - Active sonar</ibtlArea>
+		<ibtlAreaCode>G1</ibtlAreaCode>
+		<ibtlDescription>Active sonar</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>G: Acoustic Sensors </ibtlCategory>
+		<ibtlCategoryCode>G</ibtlCategoryCode>
+		<ibtlArea>G2 - Passive sonar</ibtlArea>
+		<ibtlAreaCode>G2</ibtlAreaCode>
+		<ibtlDescription>Passive sonar</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>G: Acoustic Sensors </ibtlCategory>
+		<ibtlCategoryCode>G</ibtlCategoryCode>
+		<ibtlArea>G3 - Sonobouys</ibtlArea>
+		<ibtlAreaCode>G3</ibtlAreaCode>
+		<ibtlDescription>Sonobouys</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>G: Acoustic Sensors </ibtlCategory>
+		<ibtlCategoryCode>G</ibtlCategoryCode>
+		<ibtlArea>G4 - Commercial off-the-shelf equipment used for sonar</ibtlArea>
+		<ibtlAreaCode>G4</ibtlAreaCode>
+		<ibtlDescription>Commercial off-the-shelf equipment used for sonar</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>G: Acoustic Sensors </ibtlCategory>
+		<ibtlCategoryCode>G</ibtlCategoryCode>
+		<ibtlArea>G5 - Other sensor products</ibtlArea>
+		<ibtlAreaCode>G5</ibtlAreaCode>
+		<ibtlDescription>Other sensor products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>H: Positioning, Navigation, and Timing </ibtlCategory>
+		<ibtlCategoryCode>H</ibtlCategoryCode>
+		<ibtlArea>H1 - Inertial measuring units</ibtlArea>
+		<ibtlAreaCode>H1</ibtlAreaCode>
+		<ibtlDescription>Inertial measuring units</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>H: Positioning, Navigation, and Timing </ibtlCategory>
+		<ibtlCategoryCode>H</ibtlCategoryCode>
+		<ibtlArea>H2 - Gyroscopes</ibtlArea>
+		<ibtlAreaCode>H2</ibtlAreaCode>
+		<ibtlDescription>Gyroscopes</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>H: Positioning, Navigation, and Timing </ibtlCategory>
+		<ibtlCategoryCode>H</ibtlCategoryCode>
+		<ibtlArea>H3 - Global Positioning Systems</ibtlArea>
+		<ibtlAreaCode>H3</ibtlAreaCode>
+		<ibtlDescription>Global Positioning Systems</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>H: Positioning, Navigation, and Timing </ibtlCategory>
+		<ibtlCategoryCode>H</ibtlCategoryCode>
+		<ibtlArea>H4 - Atomic clocks</ibtlArea>
+		<ibtlAreaCode>H4</ibtlAreaCode>
+		<ibtlDescription>Atomic clocks</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>H: Positioning, Navigation, and Timing </ibtlCategory>
+		<ibtlCategoryCode>H</ibtlCategoryCode>
+		<ibtlArea>H5 - Accelerometers</ibtlArea>
+		<ibtlAreaCode>H5</ibtlAreaCode>
+		<ibtlDescription>Accelerometers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>H: Positioning, Navigation, and Timing </ibtlCategory>
+		<ibtlCategoryCode>H</ibtlCategoryCode>
+		<ibtlArea>H6 - Other positioning, navigation, or timing products</ibtlArea>
+		<ibtlAreaCode>H6</ibtlAreaCode>
+		<ibtlDescription>Other positioning, navigation, or timing products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>I: Radars</ibtlCategory>
+		<ibtlCategoryCode>I</ibtlCategoryCode>
+		<ibtlArea>I1 - Mechanically steered radars</ibtlArea>
+		<ibtlAreaCode>I1</ibtlAreaCode>
+		<ibtlDescription>Mechanically steered radars</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>I: Radars</ibtlCategory>
+		<ibtlCategoryCode>I</ibtlCategoryCode>
+		<ibtlArea>I2 - Electronically steered radars</ibtlArea>
+		<ibtlAreaCode>I2</ibtlAreaCode>
+		<ibtlDescription>Electronically steered radars</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>I: Radars</ibtlCategory>
+		<ibtlCategoryCode>I</ibtlCategoryCode>
+		<ibtlArea>I3 - Phase adaptive radars</ibtlArea>
+		<ibtlAreaCode>I3</ibtlAreaCode>
+		<ibtlDescription>Phase adaptive radars</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>I: Radars</ibtlCategory>
+		<ibtlCategoryCode>I</ibtlCategoryCode>
+		<ibtlArea>I4 - Pulse radars</ibtlArea>
+		<ibtlAreaCode>I4</ibtlAreaCode>
+		<ibtlDescription>Pulse radars</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>I: Radars</ibtlCategory>
+		<ibtlCategoryCode>I</ibtlCategoryCode>
+		<ibtlArea>I5 - Continuous wave radars</ibtlArea>
+		<ibtlAreaCode>I5</ibtlAreaCode>
+		<ibtlDescription>Continuous wave radars</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>I: Radars</ibtlCategory>
+		<ibtlCategoryCode>I</ibtlCategoryCode>
+		<ibtlArea>I6 - Other radar products</ibtlArea>
+		<ibtlAreaCode>I6</ibtlAreaCode>
+		<ibtlDescription>Other radar products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>J: Signature Control </ibtlCategory>
+		<ibtlCategoryCode>J</ibtlCategoryCode>
+		<ibtlArea>J1 - Compounds or materials engineered to reduce or eliminate a signature</ibtlArea>
+		<ibtlAreaCode>J1</ibtlAreaCode>
+		<ibtlDescription>Compounds or materials engineered to reduce or eliminate a signature</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>J: Signature Control </ibtlCategory>
+		<ibtlCategoryCode>J</ibtlCategoryCode>
+		<ibtlArea>J2 - Chemical compositions of signature control compounds</ibtlArea>
+		<ibtlAreaCode>J2</ibtlAreaCode>
+		<ibtlDescription>Chemical compositions of signature control compounds</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>J: Signature Control </ibtlCategory>
+		<ibtlCategoryCode>J</ibtlCategoryCode>
+		<ibtlArea>J3 - Processes used to apply signature control compounds</ibtlArea>
+		<ibtlAreaCode>J3</ibtlAreaCode>
+		<ibtlDescription>Processes used to apply signature control compounds</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>J: Signature Control </ibtlCategory>
+		<ibtlCategoryCode>J</ibtlCategoryCode>
+		<ibtlArea>J4 - Other signature control products</ibtlArea>
+		<ibtlAreaCode>J4</ibtlAreaCode>
+		<ibtlDescription>Other signature control products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>K: Aeronautic Systems </ibtlCategory>
+		<ibtlCategoryCode>K</ibtlCategoryCode>
+		<ibtlArea>K1 - Fixed wing combat aircraft</ibtlArea>
+		<ibtlAreaCode>K1</ibtlAreaCode>
+		<ibtlDescription>Fixed wing combat aircraft</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>K: Aeronautic Systems </ibtlCategory>
+		<ibtlCategoryCode>K</ibtlCategoryCode>
+		<ibtlArea>K2 - Other fixed wing aircraft, including cargo and transport</ibtlArea>
+		<ibtlAreaCode>K2</ibtlAreaCode>
+		<ibtlDescription>Other fixed wing aircraft, including cargo and transport</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>K: Aeronautic Systems </ibtlCategory>
+		<ibtlCategoryCode>K</ibtlCategoryCode>
+		<ibtlArea>K3 - Rotary wing aircraft (including helicopters)</ibtlArea>
+		<ibtlAreaCode>K3</ibtlAreaCode>
+		<ibtlDescription>Rotary wing aircraft (including helicopters)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>K: Aeronautic Systems </ibtlCategory>
+		<ibtlCategoryCode>K</ibtlCategoryCode>
+		<ibtlArea>K4 - Unmanned aerial vehicles and drones</ibtlArea>
+		<ibtlAreaCode>K4</ibtlAreaCode>
+		<ibtlDescription>Unmanned aerial vehicles and drones</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>K: Aeronautic Systems </ibtlCategory>
+		<ibtlCategoryCode>K</ibtlCategoryCode>
+		<ibtlArea>K5 - Airframes and structural components (including rotor blades, landing gear, hydraulics, etc.)</ibtlArea>
+		<ibtlAreaCode>K5</ibtlAreaCode>
+		<ibtlDescription>Airframes and structural components (including rotor blades, landing gear, hydraulics, etc.)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>K: Aeronautic Systems </ibtlCategory>
+		<ibtlCategoryCode>K</ibtlCategoryCode>
+		<ibtlArea>K6 - Other aeronautic products</ibtlArea>
+		<ibtlAreaCode>K6</ibtlAreaCode>
+		<ibtlDescription>Other aeronautic products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>L: Space Systems </ibtlCategory>
+		<ibtlCategoryCode>L</ibtlCategoryCode>
+		<ibtlArea>L1 - Space launch vehicles</ibtlArea>
+		<ibtlAreaCode>L1</ibtlAreaCode>
+		<ibtlDescription>Space launch vehicles</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>L: Space Systems </ibtlCategory>
+		<ibtlCategoryCode>L</ibtlCategoryCode>
+		<ibtlArea>L2 - Satellites and satellite buses</ibtlArea>
+		<ibtlAreaCode>L2</ibtlAreaCode>
+		<ibtlDescription>Satellites and satellite buses</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>L: Space Systems </ibtlCategory>
+		<ibtlCategoryCode>L</ibtlCategoryCode>
+		<ibtlArea>L3 - Space survivability systems and equipment</ibtlArea>
+		<ibtlAreaCode>L3</ibtlAreaCode>
+		<ibtlDescription>Space survivability systems and equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>L: Space Systems </ibtlCategory>
+		<ibtlCategoryCode>L</ibtlCategoryCode>
+		<ibtlArea>L4 - Solid rocket motors and related equipment</ibtlArea>
+		<ibtlAreaCode>L4</ibtlAreaCode>
+		<ibtlDescription>Solid rocket motors and related equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>L: Space Systems </ibtlCategory>
+		<ibtlCategoryCode>L</ibtlCategoryCode>
+		<ibtlArea>L5 - Liquid rocket motors and related equipment</ibtlArea>
+		<ibtlAreaCode>L5</ibtlAreaCode>
+		<ibtlDescription>Liquid rocket motors and related equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>L: Space Systems </ibtlCategory>
+		<ibtlCategoryCode>L</ibtlCategoryCode>
+		<ibtlArea>L6 - Other space system products</ibtlArea>
+		<ibtlAreaCode>L6</ibtlAreaCode>
+		<ibtlDescription>Other space system products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>M: Marine Systems </ibtlCategory>
+		<ibtlCategoryCode>M</ibtlCategoryCode>
+		<ibtlArea>M1 - Combat ships and landing vessels</ibtlArea>
+		<ibtlAreaCode>M1</ibtlAreaCode>
+		<ibtlDescription>Combat ships and landing vessels</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>M: Marine Systems </ibtlCategory>
+		<ibtlCategoryCode>M</ibtlCategoryCode>
+		<ibtlArea>M2 - Transport vessels</ibtlArea>
+		<ibtlAreaCode>M2</ibtlAreaCode>
+		<ibtlDescription>Transport vessels</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>M: Marine Systems </ibtlCategory>
+		<ibtlCategoryCode>M</ibtlCategoryCode>
+		<ibtlArea>M3 - Cargo and tanker vessels</ibtlArea>
+		<ibtlAreaCode>M3</ibtlAreaCode>
+		<ibtlDescription>Cargo and tanker vessels</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>M: Marine Systems </ibtlCategory>
+		<ibtlCategoryCode>M</ibtlCategoryCode>
+		<ibtlArea>M4 - Submarines</ibtlArea>
+		<ibtlAreaCode>M4</ibtlAreaCode>
+		<ibtlDescription>Submarines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>M: Marine Systems </ibtlCategory>
+		<ibtlCategoryCode>M</ibtlCategoryCode>
+		<ibtlArea>M5 - Other marine systems</ibtlArea>
+		<ibtlAreaCode>M5</ibtlAreaCode>
+		<ibtlDescription>Other marine systems</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>N: Ground Systems </ibtlCategory>
+		<ibtlCategoryCode>N</ibtlCategoryCode>
+		<ibtlArea>N1 - Light armored vehicles &amp; designs</ibtlArea>
+		<ibtlAreaCode>N1</ibtlAreaCode>
+		<ibtlDescription>Light armored vehicles &amp; designs</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>N: Ground Systems </ibtlCategory>
+		<ibtlCategoryCode>N</ibtlCategoryCode>
+		<ibtlArea>N2 - Medium tactical vehicles &amp; designs</ibtlArea>
+		<ibtlAreaCode>N2</ibtlAreaCode>
+		<ibtlDescription>Medium tactical vehicles &amp; designs</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>N: Ground Systems </ibtlCategory>
+		<ibtlCategoryCode>N</ibtlCategoryCode>
+		<ibtlArea>N3 - M1 Abrams variations of heavy tanks &amp; designs</ibtlArea>
+		<ibtlAreaCode>N3</ibtlAreaCode>
+		<ibtlDescription>M1 Abrams variations of heavy tanks &amp; designs</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>N: Ground Systems </ibtlCategory>
+		<ibtlCategoryCode>N</ibtlCategoryCode>
+		<ibtlArea>N4 - Transport vehicles &amp; designs</ibtlArea>
+		<ibtlAreaCode>N4</ibtlAreaCode>
+		<ibtlDescription>Transport vehicles &amp; designs</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>N: Ground Systems </ibtlCategory>
+		<ibtlCategoryCode>N</ibtlCategoryCode>
+		<ibtlArea>N5 - Wheeled or tracked vehicles not specified above</ibtlArea>
+		<ibtlAreaCode>N5</ibtlAreaCode>
+		<ibtlDescription>Wheeled or tracked vehicles not specified above</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>N: Ground Systems </ibtlCategory>
+		<ibtlCategoryCode>N</ibtlCategoryCode>
+		<ibtlArea>N6 - Unmanned ground systems</ibtlArea>
+		<ibtlAreaCode>N6</ibtlAreaCode>
+		<ibtlDescription>Unmanned ground systems</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>N: Ground Systems </ibtlCategory>
+		<ibtlCategoryCode>N</ibtlCategoryCode>
+		<ibtlArea>N7 - Other ground system products</ibtlArea>
+		<ibtlAreaCode>N7</ibtlAreaCode>
+		<ibtlDescription>Other ground system products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O1 - Conventional small arms (5.56mm to .50 cal)</ibtlArea>
+		<ibtlAreaCode>O1</ibtlAreaCode>
+		<ibtlDescription>Conventional small arms (5.56mm to .50 cal)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O2 - Automatic and semi-automatic weapons</ibtlArea>
+		<ibtlAreaCode>O2</ibtlAreaCode>
+		<ibtlDescription>Automatic and semi-automatic weapons</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O3 - Mortar rounds</ibtlArea>
+		<ibtlAreaCode>O3</ibtlAreaCode>
+		<ibtlDescription>Mortar rounds</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O4 - Artillery rounds</ibtlArea>
+		<ibtlAreaCode>O4</ibtlAreaCode>
+		<ibtlDescription>Artillery rounds</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O5 - Rockets (endo and exoatmospheric)</ibtlArea>
+		<ibtlAreaCode>O5</ibtlAreaCode>
+		<ibtlDescription>Rockets (endo and exoatmospheric)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O6 - Missiles</ibtlArea>
+		<ibtlAreaCode>O6</ibtlAreaCode>
+		<ibtlDescription>Missiles</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O7 - Hypervelocity weapons</ibtlArea>
+		<ibtlAreaCode>O7</ibtlAreaCode>
+		<ibtlDescription>Hypervelocity weapons</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O8 - Launchers (missile, torpedo, rocket, etc.)</ibtlArea>
+		<ibtlAreaCode>O8</ibtlAreaCode>
+		<ibtlDescription>Launchers (missile, torpedo, rocket, etc.)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O9 - Underwater explosives (mines, torpedos, etc.)</ibtlArea>
+		<ibtlAreaCode>O9</ibtlAreaCode>
+		<ibtlDescription>Underwater explosives (mines, torpedos, etc.)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O10 - Fire control systems and components</ibtlArea>
+		<ibtlAreaCode>O10</ibtlAreaCode>
+		<ibtlDescription>Fire control systems and components</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O11 - Body armor</ibtlArea>
+		<ibtlAreaCode>O11</ibtlAreaCode>
+		<ibtlDescription>Body armor</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O12 - Other armor</ibtlArea>
+		<ibtlAreaCode>O12</ibtlAreaCode>
+		<ibtlDescription>Other armor</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>O: Armaments and Survivability </ibtlCategory>
+		<ibtlCategoryCode>O</ibtlCategoryCode>
+		<ibtlArea>O13 - Other armaments, explosives, or survivability products</ibtlArea>
+		<ibtlAreaCode>O13</ibtlAreaCode>
+		<ibtlDescription>Other armaments, explosives, or survivability products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P1 - Gas turbine engines</ibtlArea>
+		<ibtlAreaCode>P1</ibtlAreaCode>
+		<ibtlDescription>Gas turbine engines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P2 - Rocket engines</ibtlArea>
+		<ibtlAreaCode>P2</ibtlAreaCode>
+		<ibtlDescription>Rocket engines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P3 - Generators</ibtlArea>
+		<ibtlAreaCode>P3</ibtlAreaCode>
+		<ibtlDescription>Generators</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P4 - Combustion engines</ibtlArea>
+		<ibtlAreaCode>P4</ibtlAreaCode>
+		<ibtlDescription>Combustion engines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P5 - Turbo fan engines</ibtlArea>
+		<ibtlAreaCode>P5</ibtlAreaCode>
+		<ibtlDescription>Turbo fan engines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P6 - Catapults</ibtlArea>
+		<ibtlAreaCode>P6</ibtlAreaCode>
+		<ibtlDescription>Catapults</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P7 - Batteries</ibtlArea>
+		<ibtlAreaCode>P7</ibtlAreaCode>
+		<ibtlDescription>Batteries</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P8 - Propellants</ibtlArea>
+		<ibtlAreaCode>P8</ibtlAreaCode>
+		<ibtlDescription>Propellants</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>P: Energy Systems &amp; Energetics </ibtlCategory>
+		<ibtlCategoryCode>P</ibtlCategoryCode>
+		<ibtlArea>P9 - Other energy systems products</ibtlArea>
+		<ibtlAreaCode>P9</ibtlAreaCode>
+		<ibtlDescription>Other energy systems products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q1 - Nuclear reactors</ibtlArea>
+		<ibtlAreaCode>Q1</ibtlAreaCode>
+		<ibtlDescription>Nuclear reactors</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q2 - Nuclear weapon design and capabilities</ibtlArea>
+		<ibtlAreaCode>Q2</ibtlAreaCode>
+		<ibtlDescription>Nuclear weapon design and capabilities</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q3 - Nuclear weapon destruction and demilitarization technology</ibtlArea>
+		<ibtlAreaCode>Q3</ibtlAreaCode>
+		<ibtlDescription>Nuclear weapon destruction and demilitarization technology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q4 - Protective clothing</ibtlArea>
+		<ibtlAreaCode>Q4</ibtlAreaCode>
+		<ibtlDescription>Protective clothing</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q5 - Radiation detective devices (e.g. Geiger counters)</ibtlArea>
+		<ibtlAreaCode>Q5</ibtlAreaCode>
+		<ibtlDescription>Radiation detective devices (e.g. Geiger counters)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q6 - Radioactive material storage</ibtlArea>
+		<ibtlAreaCode>Q6</ibtlAreaCode>
+		<ibtlDescription>Radioactive material storage</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q7 - Nuclear disaster response equipment</ibtlArea>
+		<ibtlAreaCode>Q7</ibtlAreaCode>
+		<ibtlDescription>Nuclear disaster response equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Q: Nuclear </ibtlCategory>
+		<ibtlCategoryCode>Q</ibtlCategoryCode>
+		<ibtlArea>Q8 - Other nuclear products</ibtlArea>
+		<ibtlAreaCode>Q8</ibtlAreaCode>
+		<ibtlDescription>Other nuclear products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>R: Biological </ibtlCategory>
+		<ibtlCategoryCode>R</ibtlCategoryCode>
+		<ibtlArea>R1 - DNA research</ibtlArea>
+		<ibtlAreaCode>R1</ibtlAreaCode>
+		<ibtlDescription>DNA research</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>R: Biological </ibtlCategory>
+		<ibtlCategoryCode>R</ibtlCategoryCode>
+		<ibtlArea>R2 - RNA research</ibtlArea>
+		<ibtlAreaCode>R2</ibtlAreaCode>
+		<ibtlDescription>RNA research</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>R: Biological </ibtlCategory>
+		<ibtlCategoryCode>R</ibtlCategoryCode>
+		<ibtlArea>R3 - Biological or physiological research</ibtlArea>
+		<ibtlAreaCode>R3</ibtlAreaCode>
+		<ibtlDescription>Biological or physiological research</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>R: Biological </ibtlCategory>
+		<ibtlCategoryCode>R</ibtlCategoryCode>
+		<ibtlArea>R4 - Biological weapons destruction and demilitarization technology</ibtlArea>
+		<ibtlAreaCode>R4</ibtlAreaCode>
+		<ibtlDescription>Biological weapons destruction and demilitarization technology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>R: Biological </ibtlCategory>
+		<ibtlCategoryCode>R</ibtlCategoryCode>
+		<ibtlArea>R5 - Biological agent detection equipment</ibtlArea>
+		<ibtlAreaCode>R5</ibtlAreaCode>
+		<ibtlDescription>Biological agent detection equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>R: Biological </ibtlCategory>
+		<ibtlCategoryCode>R</ibtlCategoryCode>
+		<ibtlArea>R6 - Biological disaster response equipment</ibtlArea>
+		<ibtlAreaCode>R6</ibtlAreaCode>
+		<ibtlDescription>Biological disaster response equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>R: Biological </ibtlCategory>
+		<ibtlCategoryCode>R</ibtlCategoryCode>
+		<ibtlArea>R7 - Other biological products</ibtlArea>
+		<ibtlAreaCode>R7</ibtlAreaCode>
+		<ibtlDescription>Other biological products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>S: Chemical </ibtlCategory>
+		<ibtlCategoryCode>S</ibtlCategoryCode>
+		<ibtlArea>S1 - Chemical research</ibtlArea>
+		<ibtlAreaCode>S1</ibtlAreaCode>
+		<ibtlDescription>Chemical research</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>S: Chemical </ibtlCategory>
+		<ibtlCategoryCode>S</ibtlCategoryCode>
+		<ibtlArea>S2 - Chemical weapons destruction and demilitarization technology</ibtlArea>
+		<ibtlAreaCode>S2</ibtlAreaCode>
+		<ibtlDescription>Chemical weapons destruction and demilitarization technology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>S: Chemical </ibtlCategory>
+		<ibtlCategoryCode>S</ibtlCategoryCode>
+		<ibtlArea>S3 - Chemical agent detection equipment</ibtlArea>
+		<ibtlAreaCode>S3</ibtlAreaCode>
+		<ibtlDescription>Chemical agent detection equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>S: Chemical </ibtlCategory>
+		<ibtlCategoryCode>S</ibtlCategoryCode>
+		<ibtlArea>S4 - Chemical disaster response equipment</ibtlArea>
+		<ibtlAreaCode>S4</ibtlAreaCode>
+		<ibtlDescription>Chemical disaster response equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>S: Chemical </ibtlCategory>
+		<ibtlCategoryCode>S</ibtlCategoryCode>
+		<ibtlArea>S5 - Other chemical products</ibtlArea>
+		<ibtlAreaCode>S5</ibtlAreaCode>
+		<ibtlDescription>Other chemical products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>T: Emerging Technology </ibtlCategory>
+		<ibtlCategoryCode>T</ibtlCategoryCode>
+		<ibtlArea>T1 - Nanotechnology</ibtlArea>
+		<ibtlAreaCode>T1</ibtlAreaCode>
+		<ibtlDescription>Nanotechnology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>T: Emerging Technology </ibtlCategory>
+		<ibtlCategoryCode>T</ibtlCategoryCode>
+		<ibtlArea>T2 - Synthetic biology</ibtlArea>
+		<ibtlAreaCode>T2</ibtlAreaCode>
+		<ibtlDescription>Synthetic biology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>T: Emerging Technology </ibtlCategory>
+		<ibtlCategoryCode>T</ibtlCategoryCode>
+		<ibtlArea>T3 - Energetic materials</ibtlArea>
+		<ibtlAreaCode>T3</ibtlAreaCode>
+		<ibtlDescription>Energetic materials</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>T: Emerging Technology </ibtlCategory>
+		<ibtlCategoryCode>T</ibtlCategoryCode>
+		<ibtlArea>T4 - Quantum systems</ibtlArea>
+		<ibtlAreaCode>T4</ibtlAreaCode>
+		<ibtlDescription>Quantum systems</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>T: Emerging Technology </ibtlCategory>
+		<ibtlCategoryCode>T</ibtlCategoryCode>
+		<ibtlArea>T5 - Computational modeling of human behavior</ibtlArea>
+		<ibtlAreaCode>T5</ibtlAreaCode>
+		<ibtlDescription>Computational modeling of human behavior</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>T: Emerging Technology </ibtlCategory>
+		<ibtlCategoryCode>T</ibtlCategoryCode>
+		<ibtlArea>T6 - Cognitive neuroscience</ibtlArea>
+		<ibtlAreaCode>T6</ibtlAreaCode>
+		<ibtlDescription>Cognitive neuroscience</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>T: Emerging Technology </ibtlCategory>
+		<ibtlCategoryCode>T</ibtlCategoryCode>
+		<ibtlArea>T7 - Other emerging technology</ibtlArea>
+		<ibtlAreaCode>T7</ibtlAreaCode>
+		<ibtlDescription>Other emerging technology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>U: Agricultural </ibtlCategory>
+		<ibtlCategoryCode>U</ibtlCategoryCode>
+		<ibtlArea>U1 - Soil cultivation machinery</ibtlArea>
+		<ibtlAreaCode>U1</ibtlAreaCode>
+		<ibtlDescription>Soil cultivation machinery</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>U: Agricultural </ibtlCategory>
+		<ibtlCategoryCode>U</ibtlCategoryCode>
+		<ibtlArea>U2 - Planting machinery</ibtlArea>
+		<ibtlAreaCode>U2</ibtlAreaCode>
+		<ibtlDescription>Planting machinery</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>U: Agricultural </ibtlCategory>
+		<ibtlCategoryCode>U</ibtlCategoryCode>
+		<ibtlArea>U3 - Irrigation machinery</ibtlArea>
+		<ibtlAreaCode>U3</ibtlAreaCode>
+		<ibtlDescription>Irrigation machinery</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>U: Agricultural </ibtlCategory>
+		<ibtlCategoryCode>U</ibtlCategoryCode>
+		<ibtlArea>U4 - Produce sorters</ibtlArea>
+		<ibtlAreaCode>U4</ibtlAreaCode>
+		<ibtlDescription>Produce sorters</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>U: Agricultural </ibtlCategory>
+		<ibtlCategoryCode>U</ibtlCategoryCode>
+		<ibtlArea>U5 - Harvesting technology</ibtlArea>
+		<ibtlAreaCode>U5</ibtlAreaCode>
+		<ibtlDescription>Harvesting technology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>U: Agricultural </ibtlCategory>
+		<ibtlCategoryCode>U</ibtlCategoryCode>
+		<ibtlArea>U6 - Other agricultural products</ibtlArea>
+		<ibtlAreaCode>U6</ibtlAreaCode>
+		<ibtlDescription>Other agricultural products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>V: Medical </ibtlCategory>
+		<ibtlCategoryCode>V</ibtlCategoryCode>
+		<ibtlArea>V1 - Electron microscopes</ibtlArea>
+		<ibtlAreaCode>V1</ibtlAreaCode>
+		<ibtlDescription>Electron microscopes</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>V: Medical </ibtlCategory>
+		<ibtlCategoryCode>V</ibtlCategoryCode>
+		<ibtlArea>V2 - Sonograms</ibtlArea>
+		<ibtlAreaCode>V2</ibtlAreaCode>
+		<ibtlDescription>Sonograms</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>V: Medical </ibtlCategory>
+		<ibtlCategoryCode>V</ibtlCategoryCode>
+		<ibtlArea>V3 - Magnetic Resonance Image (MRI) machines</ibtlArea>
+		<ibtlAreaCode>V3</ibtlAreaCode>
+		<ibtlDescription>Magnetic Resonance Image (MRI) machines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>V: Medical </ibtlCategory>
+		<ibtlCategoryCode>V</ibtlCategoryCode>
+		<ibtlArea>V4 - X-radiation machines</ibtlArea>
+		<ibtlAreaCode>V4</ibtlAreaCode>
+		<ibtlDescription>X-radiation machines</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>V: Medical </ibtlCategory>
+		<ibtlCategoryCode>V</ibtlCategoryCode>
+		<ibtlArea>V5 - Medicine distribution technology</ibtlArea>
+		<ibtlAreaCode>V5</ibtlAreaCode>
+		<ibtlDescription>Medicine distribution technology</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>V: Medical </ibtlCategory>
+		<ibtlCategoryCode>V</ibtlCategoryCode>
+		<ibtlArea>V6 - Disease and vector research</ibtlArea>
+		<ibtlAreaCode>V6</ibtlAreaCode>
+		<ibtlDescription>Disease and vector research</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>V: Medical </ibtlCategory>
+		<ibtlCategoryCode>V</ibtlCategoryCode>
+		<ibtlArea>V7 - Other medical products</ibtlArea>
+		<ibtlAreaCode>V7</ibtlAreaCode>
+		<ibtlDescription>Other medical products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W1 - Common data links</ibtlArea>
+		<ibtlAreaCode>W1</ibtlAreaCode>
+		<ibtlDescription>Common data links</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W2 - Monitors</ibtlArea>
+		<ibtlAreaCode>W2</ibtlAreaCode>
+		<ibtlDescription>Monitors</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W3 - Printers</ibtlArea>
+		<ibtlAreaCode>W3</ibtlAreaCode>
+		<ibtlDescription>Printers</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W4 - Telecommunication devices (phones, cell phones, radios, radio mounts)</ibtlArea>
+		<ibtlAreaCode>W4</ibtlAreaCode>
+		<ibtlDescription>Telecommunication devices (phones, cell phones, radios, radio mounts)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W5 - Commercial off-the-shelf equipment used for C4</ibtlArea>
+		<ibtlAreaCode>W5</ibtlAreaCode>
+		<ibtlDescription>Commercial off-the-shelf equipment used for C4</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W6 - Computers and CPUs</ibtlArea>
+		<ibtlAreaCode>W6</ibtlAreaCode>
+		<ibtlDescription>Computers and CPUs</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W7 - Antennas</ibtlArea>
+		<ibtlAreaCode>W7</ibtlAreaCode>
+		<ibtlDescription>Antennas</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W8 - Beyond the line of sight C2</ibtlArea>
+		<ibtlAreaCode>W8</ibtlAreaCode>
+		<ibtlDescription>Beyond the line of sight C2</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W9 - Line of sight C2</ibtlArea>
+		<ibtlAreaCode>W9</ibtlAreaCode>
+		<ibtlDescription>Line of sight C2</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>W: Command, Control, Communication, and Computer </ibtlCategory>
+		<ibtlCategoryCode>W</ibtlCategoryCode>
+		<ibtlArea>W10 - Other C4 products and IT equipment</ibtlArea>
+		<ibtlAreaCode>W10</ibtlAreaCode>
+		<ibtlDescription>Other C4 products and IT equipment</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X1 - Computer aided design (CAD) software</ibtlArea>
+		<ibtlAreaCode>X1</ibtlAreaCode>
+		<ibtlDescription>Computer aided design (CAD) software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X2 - Modeling and simulation software</ibtlArea>
+		<ibtlAreaCode>X2</ibtlAreaCode>
+		<ibtlDescription>Modeling and simulation software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X3 - Artificial intelligence software</ibtlArea>
+		<ibtlAreaCode>X3</ibtlAreaCode>
+		<ibtlDescription>Artificial intelligence software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X4 - Swarm software</ibtlArea>
+		<ibtlAreaCode>X4</ibtlAreaCode>
+		<ibtlDescription>Swarm software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X5 - Microelectronic design software</ibtlArea>
+		<ibtlAreaCode>X5</ibtlAreaCode>
+		<ibtlDescription>Microelectronic design software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X6 - System development kits (SDK)</ibtlArea>
+		<ibtlAreaCode>X6</ibtlAreaCode>
+		<ibtlDescription>System development kits (SDK)</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X7 - Software algorithms</ibtlArea>
+		<ibtlAreaCode>X7</ibtlAreaCode>
+		<ibtlDescription>Software algorithms</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X8 - Correlation software</ibtlArea>
+		<ibtlAreaCode>X8</ibtlAreaCode>
+		<ibtlDescription>Correlation software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X9 - Database</ibtlArea>
+		<ibtlAreaCode>X9</ibtlAreaCode>
+		<ibtlDescription>Database</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X10 - Computer language software</ibtlArea>
+		<ibtlAreaCode>X10</ibtlAreaCode>
+		<ibtlDescription>Computer language software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X11 - Operating systems</ibtlArea>
+		<ibtlAreaCode>X11</ibtlAreaCode>
+		<ibtlDescription>Operating systems</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X12 - Finance and accounting software</ibtlArea>
+		<ibtlAreaCode>X12</ibtlAreaCode>
+		<ibtlDescription>Finance and accounting software</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>X: Software</ibtlCategory>
+		<ibtlCategoryCode>X</ibtlCategoryCode>
+		<ibtlArea>X13 - Other software products</ibtlArea>
+		<ibtlAreaCode>X13</ibtlAreaCode>
+		<ibtlDescription>Other software products</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y1 - Analytic services</ibtlArea>
+		<ibtlAreaCode>Y1</ibtlAreaCode>
+		<ibtlDescription>Analytic services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y2 - Canine training services</ibtlArea>
+		<ibtlAreaCode>Y2</ibtlAreaCode>
+		<ibtlDescription>Canine training services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y3 - Construction</ibtlArea>
+		<ibtlAreaCode>Y3</ibtlAreaCode>
+		<ibtlDescription>Construction</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y4 - Consulting services</ibtlArea>
+		<ibtlAreaCode>Y4</ibtlAreaCode>
+		<ibtlDescription>Consulting services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y5 - Delivery and freight services</ibtlArea>
+		<ibtlAreaCode>Y5</ibtlAreaCode>
+		<ibtlDescription>Delivery and freight services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y6 - Education and training services</ibtlArea>
+		<ibtlAreaCode>Y6</ibtlAreaCode>
+		<ibtlDescription>Education and training services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y7 - Engineering services</ibtlArea>
+		<ibtlAreaCode>Y7</ibtlAreaCode>
+		<ibtlDescription>Engineering services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y8 - Financial and banking services</ibtlArea>
+		<ibtlAreaCode>Y8</ibtlAreaCode>
+		<ibtlDescription>Financial and banking services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y9 - General contracting</ibtlArea>
+		<ibtlAreaCode>Y9</ibtlAreaCode>
+		<ibtlDescription>General contracting</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y10 - Graphic arts, video, digital production services</ibtlArea>
+		<ibtlAreaCode>Y10</ibtlAreaCode>
+		<ibtlDescription>Graphic arts, video, digital production services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y11 - Information technology services</ibtlArea>
+		<ibtlAreaCode>Y11</ibtlAreaCode>
+		<ibtlDescription>Information technology services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y12 - Internet service provision</ibtlArea>
+		<ibtlAreaCode>Y12</ibtlAreaCode>
+		<ibtlDescription>Internet service provision</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y13 - Janitorial services</ibtlArea>
+		<ibtlAreaCode>Y13</ibtlAreaCode>
+		<ibtlDescription>Janitorial services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y14 - Legal services</ibtlArea>
+		<ibtlAreaCode>Y14</ibtlAreaCode>
+		<ibtlDescription>Legal services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y15 - Logistical services</ibtlArea>
+		<ibtlAreaCode>Y15</ibtlAreaCode>
+		<ibtlDescription>Logistical services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y16 - Marketing services</ibtlArea>
+		<ibtlAreaCode>Y16</ibtlAreaCode>
+		<ibtlDescription>Marketing services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y17 - Medical services</ibtlArea>
+		<ibtlAreaCode>Y17</ibtlAreaCode>
+		<ibtlDescription>Medical services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y18 - Professional Services</ibtlArea>
+		<ibtlAreaCode>Y18</ibtlAreaCode>
+		<ibtlDescription>Professional Services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y19 - Property management services</ibtlArea>
+		<ibtlAreaCode>Y19</ibtlAreaCode>
+		<ibtlDescription>Property management services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y20 - Security and protection services</ibtlArea>
+		<ibtlAreaCode>Y20</ibtlAreaCode>
+		<ibtlDescription>Security and protection services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y21 - Staffing services</ibtlArea>
+		<ibtlAreaCode>Y21</ibtlAreaCode>
+		<ibtlDescription>Staffing services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y22 - Telecommunication services</ibtlArea>
+		<ibtlAreaCode>Y22</ibtlAreaCode>
+		<ibtlDescription>Telecommunication services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y23 - Translation services</ibtlArea>
+		<ibtlAreaCode>Y23</ibtlAreaCode>
+		<ibtlDescription>Translation services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y24 - Transportation services</ibtlArea>
+		<ibtlAreaCode>Y24</ibtlAreaCode>
+		<ibtlDescription>Transportation services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y25 - Other services</ibtlArea>
+		<ibtlAreaCode>Y25</ibtlAreaCode>
+		<ibtlDescription>Other services</ibtlDescription>
+	</ibtlItemRow>
+	<ibtlItemRow>
+		<ibtlCategory>Y: Services and Other Products </ibtlCategory>
+		<ibtlCategoryCode>Y</ibtlCategoryCode>
+		<ibtlArea>Y26 - Products not listed</ibtlArea>
+		<ibtlAreaCode>Y26</ibtlAreaCode>
+		<ibtlDescription>Products not listed</ibtlDescription>
+	</ibtlItemRow>
+</ibtlItemTable>

@@ -27,6 +27,21 @@
             </div>
         </div>
     </div>
+    <div>
+        <div id="exTab3" class="container">
+            @{
+                var currentAction = ViewContext.RouteData.Values["action"].ToString();
+            }
+            <ul class="nav nav-pills">
+                <li class="@(currentAction=="WarningBanner"? "active": "")">@Html.ActionLink("Warning Banner", "WarningBanner")</li>
+                <li class="@(currentAction=="Import"? "active": "")">@Html.ActionLink("Import", "Import")</li>
+                <li class="@(currentAction=="Facility"? "active": "")">@Html.ActionLink("Facility", "Facility")</li>
+                @*<li class="@(currentAction=="FOCI"? "active": "")">@Html.ActionLink("FOCI", "FOCI")</li>*@
+                <li class="@(currentAction=="Asset"? "active": "")">@Html.ActionLink("Asset", "Asset")</li>
+                <li class="@(currentAction == "Export" ? "active" : "")">@Html.ActionLink("Export", "Export")</li>
+            </ul>
+        </div>
+    </div>
     <div class="container body-content">
         @RenderBody()
         <hr />

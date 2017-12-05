@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<piefaosItemTable>
+	<piefaosItemRow>
+		<piefaosCategory>People</piefaosCategory>
+		<piefaosCategoryCode>P</piefaosCategoryCode>
+		<piefaosDescription>Assets in the PEOPLE category can include but are not limited to U.S. citizens, foreign nationals, employees, subject matter experts (SMEs), contractors, or visitors.</piefaosDescription>
+	</piefaosItemRow>
+	<piefaosItemRow>
+		<piefaosCategory>Information</piefaosCategory>
+		<piefaosCategoryCode>I</piefaosCategoryCode>
+		<piefaosDescription>Both classified and unclassified, INFORMATION assets are those pieces of program data or proprietary information that enable the organization to perform.</piefaosDescription>
+	</piefaosItemRow>
+	<piefaosItemRow>
+		<piefaosCategory>Equipment</piefaosCategory>
+		<piefaosCategoryCode>E</piefaosCategoryCode>
+		<piefaosDescription>The EQUIPMENT category includes all the physical hardware weapons, computers, and product.</piefaosDescription>
+	</piefaosItemRow>
+	<piefaosItemRow>
+		<piefaosCategory>Facilities/Infrastructure</piefaosCategory>
+		<piefaosCategoryCode>F</piefaosCategoryCode>
+		<piefaosDescription>Commercial buildings, secured sites, bases, and airfields where work is performed are all included in the FACILITIES/INFRASTRUCTURE category.</piefaosDescription>
+	</piefaosItemRow>
+	<piefaosItemRow>
+		<piefaosCategory>Activities</piefaosCategory>
+		<piefaosCategoryCode>A</piefaosCategoryCode>
+		<piefaosDescription>ACTIVITIES are the small stuff we care about.</piefaosDescription>
+	</piefaosItemRow>
+	<piefaosItemRow>
+		<piefaosCategory>Operations</piefaosCategory>
+		<piefaosCategoryCode>O</piefaosCategoryCode>
+		<piefaosDescription>OPERATIONS are the other stuff you do.</piefaosDescription>
+	</piefaosItemRow>
+	<piefaosItemRow>
+		<piefaosCategory>Suppliers</piefaosCategory>
+		<piefaosCategoryCode>S</piefaosCategoryCode>
+		<piefaosDescription>Where do you get that stuff?</piefaosDescription>
+	</piefaosItemRow>
+</piefaosItemTable>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SecurityBaseline>
+	<Facility>
+    <CAGE></CAGE>
+    <Name></Name>
+    <Address1></Address1>
+    <Address2></Address2>
+    <City></City>
+    <State></State>
+    <ZIP></ZIP>
+	</Facility>
+  <AssetList>
+    <AssetItem>
+      <AssetID></AssetID>
+      <AssetName></AssetName>
+      <AssetCatIBTL></AssetCatIBTL>
+      <AssetCatIBTLSub></AssetCatIBTLSub>
+      <AssetCatPIEFAOS></AssetCatPIEFAOS>
+      <AssetDescription></AssetDescription>
+      <assetUSG></assetUSG>
+      <assetProgramName></assetProgramName>
+      <assetProgramClass></assetProgramClass>
+      <assetContractNumber></assetContractNumber>
+      <assetCustomerPOC></assetCustomerPOC>
+      <assetITAR></assetITAR>
+      <assetCatForeign></assetCatForeign>
+      <assetCPI></assetCPI>
+      <assetDescription></assetDescription>
+    </AssetItem>
+  </AssetList>
+  <protectionMeasures>
+    <Control>
+      <ControlID></ControlID>
+      <ControlName></ControlName>
+      <ControlDescription></ControlDescription>
+    </Control>
+  </protectionMeasures>
+</SecurityBaseline>

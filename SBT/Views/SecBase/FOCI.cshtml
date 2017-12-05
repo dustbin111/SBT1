@@ -1,0 +1,548 @@
+﻿@model SBT.Models.SBTFOCI
+
+@{
+    ViewBag.Title = "FOCI";
+    Layout = "~/Views/Shared/_SBTLayout.cshtml";
+}
+
+<h2>FOCI</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(document).ready(function () {
+                //script to change what is shown based on FOCI Instrument used
+                $("#FOCIMitigationInstrument").change(function () {
+                    if ($(this).val() == "Board Resolution for Indebtedness") {
+                        $("#boardResolutionIndebtedness").show();
+                        $("#boardResolutionOwnership").hide();
+                        $("#securityControlAgreement").hide();
+                        $("#specialSecurityAgreement").hide();
+                        $("#proxyAgreement").hide();
+                        $("#votingTrust").hide();
+                        $("#noAmplifyingInfo").hide();
+                    }
+                    else if ($(this).val() == "Board Resolution for Minority Foreign Ownership") {
+                        $("#boardResolutionIndebtedness").hide();
+                        $("#boardResolutionOwnership").show();
+                        $("#securityControlAgreement").hide();
+                        $("#specialSecurityAgreement").hide();
+                        $("#proxyAgreement").hide();
+                        $("#votingTrust").hide();
+                        $("#noAmplifyingInfo").hide();
+                    }
+                    else if ($(this).val() == "Security Control Agreement") {
+                        $("#boardResolutionIndebtedness").hide();
+                        $("#boardResolutionOwnership").hide();
+                        $("#securityControlAgreement").show();
+                        $("#specialSecurityAgreement").hide();
+                        $("#proxyAgreement").hide();
+                        $("#votingTrust").hide();
+                        $("#noAmplifyingInfo").hide();
+                    } 
+                    else if ($(this).val() == "Special Security Agreement") {
+                        $("#boardResolutionIndebtedness").hide();
+                        $("#boardResolutionOwnership").hide();
+                        $("#securityControlAgreement").hide();
+                        $("#specialSecurityAgreement").show();
+                        $("#proxyAgreement").hide();
+                        $("#votingTrust").hide();
+                        $("#noAmplifyingInfo").hide();
+                    } 
+                    else if ($(this).val() == "Proxy Agreement") {
+                        $("#boardResolutionIndebtedness").hide();
+                        $("#boardResolutionOwnership").hide();
+                        $("#securityControlAgreement").hide();
+                        $("#specialSecurityAgreement").hide();
+                        $("#proxyAgreement").show();
+                        $("#votingTrust").hide();
+                        $("#noAmplifyingInfo").hide();
+                    } 
+                    else if ($(this).val() == "Voting Trust") {
+                        $("#boardResolutionIndebtedness").hide();
+                        $("#boardResolutionOwnership").hide();
+                        $("#securityControlAgreement").hide();
+                        $("#specialSecurityAgreement").hide();
+                        $("#proxyAgreement").hide();
+                        $("#votingTrust").show();
+                        $("#noAmplifyingInfo").hide();
+                    } 
+                    else {
+                        $("#boardResolutionIndebtedness").hide();
+                        $("#boardResolutionOwnership").hide();
+                        $("#securityControlAgreement").hide();
+                        $("#specialSecurityAgreement").hide();
+                        $("#proxyAgreement").hide();
+                        $("#votingTrust").hide();
+                        $("#noAmplifyingInfo").show();
+                        
+                    }
+                });
+            });
+    });
+    </script>
+
+    <div class="form-horizontal">
+        <h4>Foreign Ownership, Control or Influence</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        @*FOCI Mitigation*@
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.FOCIMitigationInstrument, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                FOCI Mitigation
+            </label>
+            <div class="col-md-10">
+
+                @*@Html.EditorFor(model => model.FOCIMitigationInstrument, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FOCIMitigationInstrument, "", new { @class = "text-danger" })*@
+
+                @{
+                    List<SelectListItem> listFOCIMitigationInstruments = new List<SelectListItem>();
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Not under FOCI mitigation",
+                        Value = "Not under FOCI mitigation",
+                        //Selected = true
+                    });
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Board Resolution for Indebtedness",
+                        Value = "Board Resolution for Indebtedness",
+
+                    });
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Board Resolution for Minority Foreign Ownership",
+                        Value = "Board Resolution for Minority Foreign Ownership",
+                    });
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Security Control Agreement",
+                        Value = "Security Control Agreement",
+                    });
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Special Security Agreement",
+                        Value = "Special Security Agreement",
+                    });
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Proxy Agreement",
+                        Value = "Proxy Agreement",
+                    });
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Voting Trust",
+                        Value = "Voting Trust",
+                    });
+                    listFOCIMitigationInstruments.Add(new SelectListItem
+                    {
+                        Text = "Under Adjudication-Determination Pending",
+                        Value = "Under Adjudication-Determination Pending",
+                    });
+                }
+
+                @Html.DropDownListFor(model => model.FOCIMitigationInstrument, listFOCIMitigationInstruments, "-- Select Status --", new { @class = "form-control" })
+
+                <p>
+                    Is your facility under a foreign ownership, control or influence mitigation agreement?
+                </p>
+
+            </div>
+        </div>
+
+        <div class="col-lg-12" style="background-color: lightgrey">
+            
+            @*BR Indebtedness Country*@
+            <div id="boardResolutionIndebtedness" class="form-group" style="display: none">
+                @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <label class="control-label col-md-2">
+                    Indebtedness Country
+                </label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.FOCIBRIndebtCountry, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FOCIBRIndebtCountry, "", new { @class = "text-danger" })
+
+                    <p>
+                        Identify the country of indebtedness.
+                    </p>
+                </div>
+            </div>
+
+            @*BR Minority Ownership*@
+            <div id="boardResolutionOwnership" style="display: none">
+
+                @*Minority Foreign Owner Name*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Shareholder
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIMinorityShareholder, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIMinorityShareholder, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign shareholder's name.
+                        </p>
+                    </div>
+                </div>
+
+                @*Minority Foreign Owner Country*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Shareholder Country
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIMinorityShareholderCountry, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIMinorityShareholderCountry, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign shareholder's nationality.
+                        </p>
+                    </div>
+                </div>
+
+                @*Minority Foreign Owned Stock Type*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Owned Stock Type
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIMinorityStockType, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIMinorityStockType, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign-owned stock type.
+                        </p>
+                    </div>
+                </div>
+
+                @*Minority Foreign Owned Stock Amount*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Owned Stock Amount
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIMinorityStockAmount, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIMinorityStockAmount, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign-owned stock.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            @*Security Control Agreement*@
+            <div id="securityControlAgreement" style="display: none">
+                @*SCA Foreign Owner Name*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Owner
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCISCAForeignOwnerName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCISCAForeignOwnerName, "", new { @class = "text-danger" })
+                        <p>
+                            Identify the foreign owner's name.
+                        </p>
+                    </div>
+                </div>
+
+                @*SCA Foreign Owner Country*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Owner Country
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCISCAForeignOwnerCountry, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCISCAForeignOwnerCountry, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign owner's nationality.
+                        </p>
+                    </div>
+                </div>
+
+                @*SCA Outside Directory*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Outside Director
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCISCAOutsideDirector, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCISCAOutsideDirector, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the Outside Director.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            @*Special Security Agreement*@
+            <div id="specialSecurityAgreement" style="display: none">
+                @*SSA Foreign Owner Name*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Owner
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCISSAForeignOwnerName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCISSAForeignOwnerName, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign owner's name.
+                        </p>
+                    </div>
+                </div>
+
+                @*SSA Foreign Owner Country*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Owner Country
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCISSAForeignOwnerCountry, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCISSAForeignOwnerCountry, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign owner's nationality.
+                        </p>
+                    </div>
+                </div>
+
+                @*SSA Outside Directory*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Outside Director
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCISSAOutsideDirector, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCISSAOutsideDirector, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the Outside Director.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            @*Proxy Agreement*@
+            <div id="proxyAgreement" style="display: none">
+                @*Proxy Owner Name*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Proxy Owner
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIProxyOwnerName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIProxyOwnerName, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the proxy owner's name.
+                        </p>
+                    </div>
+                </div>
+
+                @*Proxy Owner Country*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Poxy Owner Country
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIProxyOwnerCountry, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIProxyOwnerCountry, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the proxy owner's nationality.
+                        </p>
+                    </div>
+                </div>
+
+                @*Proxy Holders*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Proxy Holders
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIProxyHolders, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIProxyHolders, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the Proxy Holders.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            @*Voting Trust*@
+            <div id="votingTrust" style="display: none">
+                @*Voting Trust Owner Name*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Foreign Owner
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIVTOwnerName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIVTOwnerName, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign owner's name.
+                        </p>
+                    </div>
+                </div>
+
+                @*Voting Trust Owner Country*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        foreign Owner Country
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIVTOwnerCountry, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIVTOwnerCountry, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the foreign owner's nationality.
+                        </p>
+                    </div>
+                </div>
+
+                @*Voting Trust Trustees*@
+                <div class="form-group">
+                    @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+                    <label class="control-label col-md-2">
+                        Voting Trust Trustees
+                    </label>
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FOCIVTTrustees, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FOCIVTTrustees, "", new { @class = "text-danger" })
+
+                        <p>
+                            Identify the Voting Trust trustees.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            @*No Ampifying Information*@
+            <div id="noAmplifyingInfo" class="form-group">
+                <label class="control-label col-md-2">
+                    Amplifying Information
+                </label>
+                <div class="col-md-10">
+                    <p>
+                        No amplifying information is required.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        
+        @*National Interest Determinations*@
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                National Interest Determinations(NIDs)
+            </label>
+            <div class="col-md-10">
+            @*@Html.EditorFor(model => model.NIDs, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.NIDs, "", new { @class = "text-danger" })*@
+
+                @{
+                    List<SelectListItem> listNIDs = new List<SelectListItem>();
+                    listNIDs.Add(new SelectListItem
+                    {
+                        Text = "Yes",
+                        Value = "Yes",
+                        //Selected = true
+                    });
+                    listNIDs.Add(new SelectListItem
+                    {
+                        Text = "In Progress",
+                        Value = "In Progress",
+                    });
+                    listNIDs.Add(new SelectListItem
+                    {
+                        Text = "N/A",
+                        Value = "N/A",
+                    });
+
+                }
+
+                @Html.DropDownListFor(model => model.NIDs, listNIDs, "-- Select Status --", new { @class = "form-control" })
+
+                <p>
+                    Do you have approved National Interest Determinations?
+                </p>
+            </div>
+        </div>
+
+        @*NID Prescribed Info*@
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                NID Prescribed Info
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NIDPrescribedInfo, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NIDPrescribedInfo, "", new { @class = "text-danger" })
+
+                <p>
+                    What is the type of information prescribed in the National Interest Determination?
+                </p>
+            </div>
+        </div>
+
+        @*NID Contract Number*@
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.FacilityZIP, htmlAttributes: new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">
+                NID Contract Number
+            </label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NIDContractNumber, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NIDContractNumber, "", new { @class = "text-danger" })
+
+                <p>
+                    What contract number was the NIDs access granted under?
+                </p>
+            </div>
+        </div>
+
+        @*Bottom Navigation*@
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @*<input type="submit" value="Create" class="btn btn-default" />*@
+
+                <input type = "submit" value="<< Back" formaction="@Url.Action("FOCI", "SecBase", new { direction="Facility"})" class="btn btn-default" />
+                <input type = "submit" value="Submit" formaction="@Url.Action("FOCI", "SecBase", new { direction=""})" class="btn btn-default" />
+                <input type = "submit" value="Next >>" formaction="@Url.Action("FOCI", "SecBase", new { direction="Asset"})" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+}
+

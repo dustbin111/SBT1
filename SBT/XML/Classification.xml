@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<classificationLevels>
+  <classification>
+    <className>Confidential</className>
+    <classAbb>C</classAbb>
+    <classDesc>"Confidential" shall be applied to information, the unauthorized disclosure of which reasonably could be expected to cause damage to the national security.</classDesc>
+  </classification>
+  <classification>
+    <className>Secret</className>
+    <classAbb>S</classAbb>
+    <classDesc>"Secret" shall be applied to information, the unauthorized disclosure of which reasonably could be expected to cause serious damage to the national security.</classDesc>
+  </classification>
+  <classification>
+    <classNam>Top Secret</className>
+    <classAbb>TS</classAbb>
+    <classDesc>"Top Secret" shall be applied to information, the unauthorized disclosure of which reasonably could be expected to cause exceptionally grave damage to the national security.</classDesc>
+  </classification>
+</classificationLevels>

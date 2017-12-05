@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Import";
+    Layout = "~/Views/Shared/_SBTLayout.cshtml";
+}
+
+<h2>New or Import</h2>
+
+<div class="form-horizontal">
+    <h4>Here you will have to option to start a new Security Baseline or upload a previous one.</h4>
+    <hr />
+    <div class="form-group">
+        <label class="control-label col-md-2">
+            New
+        </label>
+        <div class="col-md-10">
+            <p><i>Start a new Security Baseline.</i></p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2">
+            Upload
+        </label>
+        <div class="col-md-10">
+            <p><i>Upload an existing XML Security Baseline.</i></p>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            @*<input type="submit" value="Submit" class="btn btn-default" />
+                <a href="@Url.Action("SecurityBaselineTemplate", "SecBase")" class="btn btn-default">Download Word (.docx)</a>*@
+
+            <input type="submit" value="<< Back" formaction="@Url.Action("Import", "SecBase", new { direction="WarningBanner"})" class="btn btn-default" />
+            <input type="submit" value="Submit" formaction="@Url.Action("Import", "SecBase", new { direction=""})" class="btn btn-default" />
+            <input type="submit" value="Next >>" formaction="@Url.Action("Import", "SecBase", new { direction="Facility"})" class="btn btn-default" />
+        </div>
+    </div>
+</div>
