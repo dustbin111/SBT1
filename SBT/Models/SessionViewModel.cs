@@ -1,4 +1,6 @@
-﻿namespace SBT.Models
+﻿using System.Collections.Generic;
+
+namespace SBT.Models
 {
     public class SessionViewModel
     {
@@ -8,11 +10,14 @@
             WarningBanner = new SBTWarningBanner();
             Facility = new SBTFacility();
             Asset = new SBTAsset();
+            Assets = new List<SBTAsset>();
         }
 
         public SBTWarningBanner WarningBanner { get; set; }
         public SBTFacility Facility { get; set; }
         public SBTAsset Asset { get; set; }
+
+        public List<SBTAsset> Assets { get; set; }
 
     }
 }

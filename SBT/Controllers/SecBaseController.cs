@@ -93,8 +93,16 @@ namespace SBT.Controllers
 
         // -------------------------------------------------------------------------------------------------------------------------------
         // GET: SecBase/Asset
-        public ActionResult Asset()
+        public ActionResult Asset(string id)
         {
+            var viewModel = GetViewModel();
+
+            SBTAsset asset = new SBTAsset();
+
+            if (!string.IsNullOrEmpty(id) && viewModel.Assets.Any(x => x.assetID == id))
+            {
+                asset = viewModel.Assets.First(x => x.assetID == id);
+            }
 
             ViewBag.catPiefaos = GetPIEFAOS();
 
@@ -102,7 +110,7 @@ namespace SBT.Controllers
 
             ViewBag.catIBTLSub = GetIBTLSubCat();
 
-            return View(GetViewModel().Asset);
+            return View(asset);
         }
 
         // POST: SecBase/Asset
@@ -111,7 +119,13 @@ namespace SBT.Controllers
         {
             SessionViewModel viewModel = GetViewModel();
 
-            viewModel.Asset = asset;
+            if (viewModel.Assets == null)
+            {
+                viewModel.Assets = new List<SBTAsset>();
+            }
+
+            viewModel.Assets.Add(asset);
+
             Session["SBT"] = viewModel;
             if (!string.IsNullOrEmpty(direction))
             {

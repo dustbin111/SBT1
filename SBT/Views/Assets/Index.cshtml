@@ -1,0 +1,50 @@
+﻿@model System.Collections.Generic.List<SBT.Models.SBTAsset>
+
+@{
+    ViewBag.Title = "Assets Index";
+    Layout = "~/Views/Shared/_SBTLayout.cshtml";
+}
+
+
+
+
+<h2>Assets Index</h2>
+
+<table class="table table-striped" id="tblAssets">
+    <thead>
+        <tr>
+            <th>Id</th>    
+            <th>Name</th>    
+            <th>PIEFAOS</th>    
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var a in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(a.assetID, "Asset", "SecBase", new { id = a.assetID }, null)
+            </td>
+            <td>
+                @Html.ActionLink(a.assetName, "Asset", "SecBase", new { id = a.assetID }, null)
+            </td>
+            <td>@a.assetCatPIEFAOS</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+
+@section scripts{
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.16/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.16/datatables.min.js"></script>
+
+    <script>
+        $(function() {
+            console.log('i am initialized');
+
+            $("#tblAssets").DataTable();
+        });
+    </script>
+}
