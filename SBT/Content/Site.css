@@ -22,3 +22,13 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.assets-label {
+    display: inline-block;
+    width: 100%;
+}
+
+.assets-label a {
+    color: #fff;
+}

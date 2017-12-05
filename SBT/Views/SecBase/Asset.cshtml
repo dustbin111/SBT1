@@ -70,8 +70,7 @@
                 @Html.ValidationMessageFor(model => model.assetCatIBTL, "", new { @class = "text-danger" })*@
 
                 @Html.DropDownListFor(model => model.Asset.assetCatIBTL, Model.CatIBTL, "-- IBTL Category --", new { @class = "form-control" })
-
-
+                
                 <p>Categorize the asset in the context of the <a href="http://www.cdse.edu/documents/cdse/CI-JobAidSeries-IBTL.pdf" target="_blank">IBTL</a>.</p>
             </div>
         </div>
@@ -85,7 +84,7 @@
                 @*@Html.EditorFor(model => model.assetCatIBTLSub, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.assetCatIBTLSub, "", new { @class = "text-danger" })*@
                 
-                @Html.DropDownListFor(model => model.Asset.assetCatIBTLSub, (IEnumerable<SelectListItem>)ViewBag.catIBTLSub, "-- IBTL Sub-Category --", new { @class = "form-control" })
+                @Html.DropDownListFor(model => model.Asset.assetCatIBTLSub, Model.CatIBTLSub, "-- IBTL Sub-Category --", new { @class = "form-control" })
                 
                 <p>Categorize the asset in the context of the <a href="http://www.cdse.edu/documents/cdse/CI-JobAidSeries-IBTL.pdf" target="_blank">IBTL</a>.</p>
             </div>
@@ -100,7 +99,7 @@
                 @*@Html.EditorFor(model => model.assetCatPIEFAOS, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.assetCatPIEFAOS, "", new { @class = "text-danger" })*@
 
-                @Html.DropDownListFor(model => model.Asset.assetCatPIEFAOS, (IEnumerable<SelectListItem>)ViewBag.catPiefaos, "-- PIEFAOS Category --", new { @class = "form-control" })
+                @Html.DropDownListFor(model => model.Asset.assetCatPIEFAOS, Model.CatPiefaos, "-- PIEFAOS Category --", new { @class = "form-control" })
 
                 <p>Categorize the asset in the context of <a href="http://www.cdse.edu/documents/cdse/Security-in-Depth-Webinar.pdf" target="_blank">PIEFAO-S</a>.</p>
             </div>

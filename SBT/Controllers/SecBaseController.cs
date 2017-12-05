@@ -105,17 +105,16 @@ namespace SBT.Controllers
                 asset = viewModel.Assets.First(x => x.Id == id);
             }
             
-            var vm = new AssetViewModel();
-            vm.Asset = asset;
-            vm.CatIBTL = GetIBTLCat(asset.assetCatIBTL);
+            var assetViewModel = new AssetViewModel();
+            assetViewModel.Asset = asset;
 
-            ViewBag.catPiefaos = GetPIEFAOS();
+            assetViewModel.CatIBTL = GetIBTLCat(asset.assetCatIBTL);
+            
+            assetViewModel.CatPiefaos = GetPIEFAOS();
 
-            //ViewBag.catIBTL = GetIBTLCat(asset.assetCatIBTL);
+            assetViewModel.CatIBTLSub = GetIBTLSubCat();
 
-            ViewBag.catIBTLSub = GetIBTLSubCat();
-
-            return View(vm);
+            return View(assetViewModel);
         }
 
         // POST: SecBase/Asset
@@ -152,11 +151,9 @@ namespace SBT.Controllers
 
             assetViewModel.CatIBTL = GetIBTLCat(asset.assetCatIBTL);
 
-            ViewBag.catPiefaos = GetPIEFAOS();
-
-            ViewBag.catIBTL = GetIBTLCat(asset.assetCatIBTL);
-
-            ViewBag.catIBTLSub = GetIBTLSubCat();
+            assetViewModel.CatPiefaos = GetPIEFAOS();
+            
+            assetViewModel.CatIBTLSub = GetIBTLSubCat();
 
             return View(assetViewModel);
         }
