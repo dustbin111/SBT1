@@ -148,6 +148,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AssetViewModel.cs" />
     <Compile Include="Models\SBTAsset.cs" />
     <Compile Include="Models\SBTFacility.cs" />
     <Compile Include="Models\SBTFCL.cs" />

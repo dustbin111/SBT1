@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml;
 using System.Xml.Linq;
+using Microsoft.Ajax.Utilities;
 using SBT.Models;
 using SBT.Utilities;
 
@@ -93,52 +94,71 @@ namespace SBT.Controllers
 
         // -------------------------------------------------------------------------------------------------------------------------------
         // GET: SecBase/Asset
-        public ActionResult Asset(string id)
+        public ActionResult Asset(Guid? id)
         {
             var viewModel = GetViewModel();
 
             SBTAsset asset = new SBTAsset();
 
-            if (!string.IsNullOrEmpty(id) && viewModel.Assets.Any(x => x.assetID == id))
+            if (id.HasValue && id != Guid.Empty && viewModel.Assets.Any(x => x.Id == id))
             {
-                asset = viewModel.Assets.First(x => x.assetID == id);
+                asset = viewModel.Assets.First(x => x.Id == id);
             }
+            
+            var vm = new AssetViewModel();
+            vm.Asset = asset;
+            vm.CatIBTL = GetIBTLCat(asset.assetCatIBTL);
 
             ViewBag.catPiefaos = GetPIEFAOS();
 
-            ViewBag.catIBTL = GetIBTLCat();
+            //ViewBag.catIBTL = GetIBTLCat(asset.assetCatIBTL);
 
             ViewBag.catIBTLSub = GetIBTLSubCat();
 
-            return View(asset);
+            return View(vm);
         }
 
         // POST: SecBase/Asset
         [HttpPost]
-        public ActionResult Asset(SBTAsset asset, string direction)
+        public ActionResult Asset(AssetViewModel assetViewModel, string direction)
         {
+            SBTAsset asset = assetViewModel.Asset;
             SessionViewModel viewModel = GetViewModel();
 
-            if (viewModel.Assets == null)
+            if (viewModel.Assets.Any(x => x.Id == asset.Id))
             {
-                viewModel.Assets = new List<SBTAsset>();
-            }
+                // grab reference to existing assset
+                var existingAsset = viewModel.Assets.FirstOrDefault(a => a.Id == asset.Id);
+                // remove it from collection
+                viewModel.Assets.Remove(existingAsset);
 
-            viewModel.Assets.Add(asset);
+                // update collection with replacement asset
+                viewModel.Assets.Add(asset);
+            }
+            else
+            {
+                asset.Id = Guid.NewGuid();
+
+                viewModel.Assets.Add(asset);
+            }
+            
 
             Session["SBT"] = viewModel;
+
             if (!string.IsNullOrEmpty(direction))
             {
                 return RedirectToAction(direction);
             }
 
+            assetViewModel.CatIBTL = GetIBTLCat(asset.assetCatIBTL);
+
             ViewBag.catPiefaos = GetPIEFAOS();
 
-            ViewBag.catIBTL = GetIBTLCat();
+            ViewBag.catIBTL = GetIBTLCat(asset.assetCatIBTL);
 
             ViewBag.catIBTLSub = GetIBTLSubCat();
 
-            return View(viewModel.Asset);
+            return View(assetViewModel);
         }
 
         // -------------------------------------------------------------------------------------------------------------------------------
@@ -241,7 +261,7 @@ namespace SBT.Controllers
             return PIEFAOSCat;
         }
 
-        public IEnumerable<SelectListItem> GetIBTLCat()
+        public IEnumerable<SelectListItem> GetIBTLCat(string currentValue)
         {
             //This populates the IBTL dropdown from XML.
             string pathIBTL = Server.MapPath("~/XML/IBTL.xml");
@@ -251,10 +271,10 @@ namespace SBT.Controllers
                                                       select new SelectListItem
                                                       {
                                                           Text = (string)proc.Element("ibtlCategory")
+                                                          ,Selected = currentValue == (string)proc.Element("ibtlCategory")
                                                           //Text = (string)proc.Attribute("ibtlCategory")
-
                                                       };
-            return processIBTL;
+            return processIBTL.DistinctBy(x => x.Text);
         }
 
         public IEnumerable<SelectListItem> GetIBTLSubCat()

@@ -16,6 +16,7 @@
             <th>Id</th>    
             <th>Name</th>    
             <th>PIEFAOS</th>    
+            <th>Cat</th>    
         </tr>
     </thead>
     <tbody>
@@ -23,12 +24,13 @@
     {
         <tr>
             <td>
-                @Html.ActionLink(a.assetID, "Asset", "SecBase", new { id = a.assetID }, null)
+                @Html.ActionLink(a.assetID, "Asset", "SecBase", new { id = a.Id }, null)
             </td>
             <td>
-                @Html.ActionLink(a.assetName, "Asset", "SecBase", new { id = a.assetID }, null)
+                @Html.ActionLink(a.assetName, "Asset", "SecBase", new { id = a.Id }, null)
             </td>
             <td>@a.assetCatPIEFAOS</td>
+            <td>@a.assetCatIBTL</td>
         </tr>
     }
     </tbody>
