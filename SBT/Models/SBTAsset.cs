@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.ComponentModel.DataAnnotations;
 
 
@@ -9,6 +6,9 @@ namespace SBT.Models
 {
     public class SBTAsset
     {
+        // our internal Guid
+        public Guid Id { get; set; }
+
         public string assetID { get; set; }
         [Required]
         public string assetName { get; set; }

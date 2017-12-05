@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using SBT.Models
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -33,11 +34,26 @@
                 var currentAction = ViewContext.RouteData.Values["action"].ToString();
             }
             <ul class="nav nav-pills">
-                <li class="@(currentAction=="WarningBanner"? "active": "")">@Html.ActionLink("Warning Banner", "WarningBanner")</li>
-                <li class="@(currentAction=="Import"? "active": "")">@Html.ActionLink("Import", "Import")</li>
-                <li class="@(currentAction=="Facility"? "active": "")">@Html.ActionLink("Facility", "Facility")</li>
+                <li class="@(currentAction=="WarningBanner"? "active": "")">@Html.ActionLink("Warning Banner", "WarningBanner", "SecBase")</li>
+                <li class="@(currentAction=="Import"? "active": "")">@Html.ActionLink("Import", "Import", "SecBase")</li>
+                <li class="@(currentAction=="Facility"? "active": "")">@Html.ActionLink("Facility", "Facility", "SecBase")</li>
                 @*<li class="@(currentAction=="FOCI"? "active": "")">@Html.ActionLink("FOCI", "FOCI")</li>*@
-                <li class="@(currentAction=="Asset"? "active": "")">@Html.ActionLink("Asset", "Asset")</li>
+                <li class="@(currentAction == "Asset" ? "active" : "")">
+                    @Html.ActionLink("Asset", "Asset", "SecBase")
+                    @{
+                        var viewModel = new SessionViewModel();
+                        if (Session["SBT"] != null)
+                        {
+                            viewModel = (SessionViewModel)Session["SBT"];
+                        }
+                    }
+                    @if (viewModel.Assets != null && viewModel.Assets.Count > 0)
+                    {
+                        <span class="label label-info">
+                            @Html.ActionLink(viewModel.Assets.Count + " assets", "Index", "Assets")
+                        </span>
+                    }
+                </li>
                 <li class="@(currentAction == "Export" ? "active" : "")">@Html.ActionLink("Export", "Export")</li>
             </ul>
         </div>

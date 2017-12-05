@@ -17,7 +17,7 @@
     <AssemblyName>SBT</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
@@ -142,11 +142,13 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AssetsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SecBaseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AssetViewModel.cs" />
     <Compile Include="Models\SBTAsset.cs" />
     <Compile Include="Models\SBTFacility.cs" />
     <Compile Include="Models\SBTFCL.cs" />
@@ -211,6 +213,7 @@
     <Content Include="Views\SecBase\Export.cshtml" />
     <Content Include="Views\SecBase\SecurityBaselineTemplate.cshtml" />
     <Content Include="Views\SecBase\FOCI.cshtml" />
+    <Content Include="Views\Assets\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -246,7 +249,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>36974</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:36974/</IISUrl>
+          <IISUrl>http://localhost/sbt</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
